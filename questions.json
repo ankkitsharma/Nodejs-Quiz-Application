@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is the primary use of Node.js?",
+      "options": ["Front-end development", "Back-end development", "Mobile app development", "Database management"],
+      "answer": "Back-end development"
+    },
+    {
+      "question": "Which of the following is a core module in Node.js?",
+      "options": ["fs", "http", "url", "all of the above"],
+      "answer": "all of the above"
+    },
+    {
+      "question": "What does npm stand for?",
+      "options": ["Node Package Manager", "New Programming Module", "Node Project Manager", "None of the above"],
+      "answer": "Node Package Manager"
+    },
+    {
+      "question": "What is an event loop in Node.js?",
+      "options": ["A loop that iterates through arrays", "A mechanism that allows Node.js to handle multiple connections concurrently", "A function that handles errors in Node.js", "None of the above"],
+      "answer": "A mechanism that allows Node.js to handle multiple connections concurrently"
+    },
+    {
+      "question": "Which method is used to include external modules in Node.js?",
+      "options": ["include()", "some()", "require()", "use()"],
+      "answer": "require()"
+    }
+  ]
+  
