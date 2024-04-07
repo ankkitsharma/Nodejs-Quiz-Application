@@ -1,3 +1,4 @@
+// Get Questions from index.js and populate them in index.html
 (async function getQuestions() {
   try {
     const response = await fetch("http://localhost:3000/questions");
@@ -20,6 +21,7 @@
   }
 })();
 
+// Submit Answers and get feedback and score
 async function submitAnswers() {
   try {
     const quizForm = new FormData(document.getElementById("quizForm"));
@@ -35,7 +37,14 @@ async function submitAnswers() {
     });
 
     const result = await response.json();
-    alert(`Your score is ${result.score}`);
+    const feedback = result.feedback;
+    let feedbackMessage = "Quiz Results:\n\n";
+    feedback.forEach((item, index) => {
+      feedbackMessage += `Question ${index + 1}: ${item.result}\n`;
+      feedbackMessage += `Correct Answer: ${item.correctAnswer}\n\n`;
+    });
+    feedbackMessage += `Your score is ${result.score}`;
+    alert(feedbackMessage);
   } catch (error) {
     console.error(error);
   }
