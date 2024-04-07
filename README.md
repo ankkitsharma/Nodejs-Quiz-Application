@@ -37,8 +37,8 @@ This is a simple quiz application built with Node.js and Express.js that tests u
 - This project uses a simple HTML interface for user interaction, without any front-end frameworks.
 ## Screenshots
 
+![image](https://github.com/ankkitsharma/Nodejs-Quiz-Application/assets/78787267/ee9fdf2e-f9a2-4217-b186-8a6102f45097)
 ![image](https://github.com/ankkitsharma/Nodejs-Quiz-Application/assets/78787267/da8dfc45-48d2-497c-bc8c-fb48ba143a15)
-![image](https://github.com/ankkitsharma/Nodejs-Quiz-Application/assets/78787267/24ab190a-0728-40b1-9918-0fb5b5b7a67e)
 
 
 
