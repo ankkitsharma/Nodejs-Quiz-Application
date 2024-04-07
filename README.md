@@ -7,7 +7,7 @@ This is a simple quiz application built with Node.js and Express.js that tests u
 - Users can access the quiz questions via HTTP endpoints.
 - Users can submit their answers to the quiz.
 - Users receive feedback on their answers along with the correct answer for each question.
-- The application includes at least 10 questions related to Node.js concepts.
+- The application includes at 10 questions related to Node.js concepts.
 
 ## Installation
 
@@ -37,8 +37,10 @@ This is a simple quiz application built with Node.js and Express.js that tests u
 - This project uses a simple HTML interface for user interaction, without any front-end frameworks.
 ## Screenshots
 
-![image](https://github.com/ankkitsharma/Nodejs-Quiz-Application/assets/78787267/04dcba64-ee85-4674-81e8-1fd079f5053e)
-![image](https://github.com/ankkitsharma/Nodejs-Quiz-Application/assets/78787267/3b2ea192-6416-4b4d-acfe-6710af9ee3d3)
+![image](https://github.com/ankkitsharma/Nodejs-Quiz-Application/assets/78787267/da8dfc45-48d2-497c-bc8c-fb48ba143a15)
+![image](https://github.com/ankkitsharma/Nodejs-Quiz-Application/assets/78787267/24ab190a-0728-40b1-9918-0fb5b5b7a67e)
+
+
 
 
 
