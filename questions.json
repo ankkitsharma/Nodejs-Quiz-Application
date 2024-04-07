@@ -24,5 +24,30 @@
       "options": ["include()", "some()", "require()", "use()"],
       "answer": "require()"
     }
+    ,{
+      "question": "What is the difference between synchronous and asynchronous operations in Node.js?",
+      "options": ["Synchronous operations are blocking while asynchronous operations are not.", "Synchronous operations are not blocking while asynchronous operations are blocking.", "Synchronous operations are faster than asynchronous operations.", "Asynchronous operations are faster than synchronous operations."],
+      "answer": "Synchronous operations are not blocking while asynchronous operations are not."
+    },
+    {
+      "question": "What is the purpose of the process.env object in Node.js?",
+      "options": ["To store environment variables", "To store global variables", "To store configuration data", "To store user-specific data"],
+      "answer": "To store environment variables"
+    },
+    {
+      "question": "What is the purpose of the fs module in Node.js?",
+      "options": ["To handle file operations", "To handle network connections", "To handle database operations", "To handle cryptographic operations"],
+      "answer": "To handle file operations"
+    },
+    {
+      "question": "What is the purpose of the http module in Node.js?",
+      "options": ["To handle file operations", "To handle network connections", "To handle database operations", "To handle HTTP server operations"],
+      "answer": "To handle HTTP server operations"
+    },
+    {
+      "question": "What is the purpose of the dotenv module in Node.js?",
+      "options": ["To handle file operations", "To handle network connections", "To handle environment variables", "To handle database operations"],
+      "answer": "To handle environment variables"
+    }
   ]
   
