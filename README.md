@@ -30,13 +30,6 @@ This is a simple quiz application built with Node.js and Express.js that tests u
 - GET /questions: Retrieve the quiz questions.
 - POST /submit: Submit answers to the quiz and receive feedback.
 
-## Project Structure
-
-nodejs-quiz/
-├── questions.json      # JSON file containing quiz questions and answers
-├── index.js           # Express.js server file
-└── index.html          # HTML interface for the quiz
-
 ## Additional Notes
 
 - The quiz questions are stored in the questions.json file. You can modify or add more questions there.
