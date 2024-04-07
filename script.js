@@ -38,13 +38,17 @@ async function submitAnswers() {
 
     const result = await response.json();
     const feedback = result.feedback;
-    let feedbackMessage = "Quiz Results:\n\n";
+    const resultList = document.getElementById("result");
     feedback.forEach((item, index) => {
-      feedbackMessage += `Question ${index + 1}: ${item.result}\n`;
-      feedbackMessage += `Correct Answer: ${item.correctAnswer}\n\n`;
+      const li = document.createElement("li");
+      li.textContent = `Question ${index + 1}: ${
+        item.result
+      }\nCorrect Answer: ${item.correctAnswer}`;
+      resultList.appendChild(li);
     });
-    feedbackMessage += `Your score is ${result.score}`;
-    alert(feedbackMessage);
+    const scoreLi = document.createElement("li");
+    scoreLi.textContent = `Your score is ${result.score}`;
+    resultList.appendChild(scoreLi);
   } catch (error) {
     console.error(error);
   }

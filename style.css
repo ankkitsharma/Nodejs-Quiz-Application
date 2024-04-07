@@ -33,3 +33,17 @@ button {
   color: white;
   border: none;
 }
+
+#result {
+  display: flex;
+  flex-direction: column;
+  background-color: #3a3737;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+}
+
+#result li {
+  margin-bottom: 10px;
+  list-style: none;
+}
